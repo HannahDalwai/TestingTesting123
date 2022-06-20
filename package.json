@@ -1,0 +1,15 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "main": "tests.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome:headless ./login-test.js -s takeOnFails=true"
+    "test:chrome:headless": "testcafe chrome:headless ./login-test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "testcafe": "^1.19.0"
+  }
+}
